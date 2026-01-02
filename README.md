@@ -1,37 +1,45 @@
-🌤️ Weather App
-A sleek, modern, and responsive weather application built using React.
-It allows users to search for any city and instantly view real-time weather conditions, a detailed 5-day forecast, and toggle between light and dark modes. The app features smooth animations and a clean UI with blurred weather cards for an enhanced user experience.
+# 🌤️ Weather App
 
-✨ Features
-🔍 City-Based Weather Search
-Enter any city name to view current weather data.
+A **sleek, modern, and responsive weather application** built using **React**.  
+Search for any city to instantly view **real-time weather conditions**, a **5-day forecast**, and **hourly data**, with seamless **dark & light mode** support.
 
-📅 5-Day Forecast + Hourly Data
-Includes temperature, weather icons, and humidity details.
+---
 
-🌘 Dark Mode / Light Mode Toggle
-Seamlessly switch themes for day or night usage.
+## 🚀 Live Demo
+👉 **[Click here to try the app](https://your-deployed-link-here)**
 
-🌫️ Blurred Weather Cards
-Aesthetically pleasing UI with animated transitions and responsive layout.
+---
 
-🚀 Deployed Link
-👉 Click here to try the app
+## ✨ Features
 
-🖼️ Screenshots
-🏠 Main Interface
-Main Interface
+🔍 **City-Based Weather Search**  
+Search any city worldwide and get instant weather updates.
 
-🌍 City Weather Data
-City Weather
+📅 **5-Day Forecast + Hourly Data**  
+Includes temperature trends, weather icons, and humidity details.
 
-📊 5-Day & Hourly Forecast
-Forecast
+🌘 **Dark Mode / Light Mode Toggle**  
+Switch themes effortlessly for day or night usage.
 
-🛠️ Tech Stack
-React.js – Frontend framework
-OpenWeatherMap API – Real-time weather data
-CSS – Custom styling for animations and layout
-GitHub Pages – Deployment
-📌 Note
-Ideal for learning modern UI/UX design, API integration, and responsive frontend development with React.
+🌫️ **Blurred Weather Cards**  
+Modern glassmorphism UI with smooth animations.
+
+📱 **Fully Responsive Design**  
+Optimized for desktop, tablet, and mobile devices.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** – Frontend framework  
+- **OpenWeatherMap API** – Real-time weather data  
+- **CSS3** – Custom styling & animations  
+- **GitHub Pages** – Deployment  
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+```bash
+git clone https://github.com/PRANEETHKUMAR30918/WeatherApp.git
