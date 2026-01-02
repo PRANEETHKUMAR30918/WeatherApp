@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background 0.5s, color 0.5s;
+}
+.weather-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.weather-details {
+  text-align: left;
+}
+
+.app {
+  min-height: 100vh;
+  background: linear-gradient(to right, #dfe9f3, #ffffff);
+  color: #333;
+  padding: 20px;
+}
+
+.dark {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #eee;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.search-box {
+  margin: 20px 0;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 10px;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.dark-toggle {
+  margin-bottom: 10px;
+  background: transparent;
+  color: inherit;
+  border: 1px solid currentColor;
+}
+
+.weather-box {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.forecast {
+  margin-top: 30px;
+}
+
+.forecast-horizontal {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.forecast-card {
+  flex: 0 0 auto;
+  width: 140px;
+  padding: 15px;
+  text-align: center;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* This centers content horizontally */
+  justify-content: center; /* Optional: centers content vertically if card has a fixed height */
+}
+
+
+.day {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+.weather-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
